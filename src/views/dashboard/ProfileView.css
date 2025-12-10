@@ -1,0 +1,51 @@
+.profile-info {
+  padding: 20px 0;
+}
+
+.profile-info .section {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.profile-info .form-control-static {
+  padding: 0.5rem 0;
+  color: #333;
+  word-break: break-word;
+}
+
+.profile-info h4 {
+  font-weight: 600;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 0.5rem;
+}
+
+.profile-info .badge {
+  font-size: 0.85rem;
+  padding: 0.4rem 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.profile-info .btn {
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .profile-info .row {
+    margin-bottom: 1rem;
+  }
+
+  .profile-info .col-md-6 {
+    margin-bottom: 1rem;
+  }
+}

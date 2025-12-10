@@ -1,0 +1,86 @@
+/* Dashboard Styles */
+.dashboard-header {
+  margin-top: 80px;
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.dashboard-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.cronograma-section {
+  padding: 40px 0;
+}
+
+.card-cronograma {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 8px;
+}
+
+.card-cronograma:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.card-cronograma .card-title {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.card-cronograma .card-text {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.alert-custom {
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.powerbi-section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.powerbi-section h2 {
+  color: #007bff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.powerbi-container {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dashboard-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .dashboard-header p {
+    font-size: 1rem;
+  }
+
+  .cronograma-section {
+    padding: 20px 0;
+  }
+
+  .card-cronograma {
+    margin-bottom: 15px;
+  }
+}
