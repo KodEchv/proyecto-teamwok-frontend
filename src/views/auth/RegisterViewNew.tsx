@@ -237,7 +237,7 @@ export const RegisterViewNew: React.FC = () => {
                                                 <option value="DOCUMENTADOR">📄 Documentador</option>
                                                 <option value="AUDITOR">🔍 Auditor</option>
                                                 <option value="LIDER">👨‍💼 Líder</option>
-                                                <option value="PLANEACION">📋 Planeación</option>
+                                                <option value="ADMIN">📋 ADMIN</option>
                                             </select>
                                         </div>
 
